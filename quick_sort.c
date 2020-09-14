@@ -5,7 +5,7 @@ void printarray(int a[],int n);
 
 int main(){
     int a[9]={9,8,7,6,5,4,3,2,1};
-    int lb=0,ub=8,n=8;
+    int lb=0,ub=9,n=9;
     quicksort(a,lb,ub);
     printarray(a,n);
 }
